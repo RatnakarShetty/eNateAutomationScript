@@ -46,7 +46,8 @@ public class TicketBookingTest extends BaseTest {
 		// Search for Movie Name
 		homePage.searchForMovie(MovieName);
 		homePage.selectMovie();
-
+		
+		Thread.sleep(5000);
 		// Click Book Now Button
 		homePage.clickBookNow();
 
